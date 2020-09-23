@@ -1,0 +1,35 @@
+VERSION 5.00
+Begin VB.Form DD 
+   BackColor       =   &H00FFFFFF&
+   BorderStyle     =   0  'None
+   ClientHeight    =   936
+   ClientLeft      =   3492
+   ClientTop       =   6228
+   ClientWidth     =   1344
+   LinkTopic       =   "Form1"
+   PaletteMode     =   1  'UseZOrder
+   ScaleHeight     =   936
+   ScaleWidth      =   1344
+   Begin VB.PictureBox Mobile 
+      BackColor       =   &H00E0E0E0&
+      BorderStyle     =   0  'None
+      Height          =   960
+      Left            =   0
+      ScaleHeight     =   960
+      ScaleWidth      =   1356
+      TabIndex        =   0
+      Top             =   0
+      Width           =   1356
+   End
+End
+Attribute VB_Name = "DD"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Public Forms, Cform
+
+
+
+
+

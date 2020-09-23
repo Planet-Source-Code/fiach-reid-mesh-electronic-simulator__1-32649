@@ -1,0 +1,131 @@
+[Root]
+Most Recent Package=Mesh 2.1
+
+
+[Package|Mesh 2.1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\mesh
+
+[Package|Mesh 2.1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Mesh 2.1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Mesh 2.1|Files Found]
+
+[Package|Mesh 2.1|Files Released]
+
+[Package|Mesh 2.1|Missing Dependency Information]
+A:\mesh 08.10.01\MeshCGI.exe=
+
+[Package|Mesh 2.1|Out-of-Date Dependency Information]
+
+[Package|Mesh 2.1|Files Added]
+A:\mesh 08.10.01\mesh2.hlp=
+A:\mesh 08.10.01\mesh.swf=
+A:\mesh 08.10.01\MeshCGI.exe=
+A:\mesh 08.10.01\Online.html=
+A:\mesh 08.10.01\Null.xbm=
+A:\mesh 08.10.01\MESH2C.CCT=
+A:\mesh 08.10.01\OHM.CCT=
+A:\mesh 08.10.01\SINGLE~1.CCT=
+
+[Package|Mesh 2.1|Files Removed]
+
+[Package|Mesh 2.1|Files In Project]
+C:\WINDOWS\DESKTOP\mesh21.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+A:\mesh 08.10.01\mesh2.hlp=Yes
+A:\mesh 08.10.01\mesh.swf=Yes
+A:\mesh 08.10.01\MeshCGI.exe=Yes
+A:\mesh 08.10.01\Online.html=Yes
+A:\mesh 08.10.01\Null.xbm=Yes
+A:\mesh 08.10.01\MESH2C.CCT=Yes
+A:\mesh 08.10.01\OHM.CCT=Yes
+A:\mesh 08.10.01\SINGLE~1.CCT=Yes
+
+[Package|Mesh 2.1|Configure Registry Files]
+Applicable=No
+
+[Package|Mesh 2.1|Configure Remote Servers]
+Applicable=No
+
+[Package|Mesh 2.1|Install Locations]
+C:\WINDOWS\DESKTOP\mesh21.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+A:\mesh 08.10.01\mesh2.hlp=$(AppPath)
+A:\mesh 08.10.01\mesh.swf=$(AppPath)\online
+A:\mesh 08.10.01\MeshCGI.exe=$(AppPath)\cgi-bin
+A:\mesh 08.10.01\Online.html=$(AppPath)\online
+A:\mesh 08.10.01\Null.xbm=$(AppPath)\online
+A:\mesh 08.10.01\MESH2C.CCT=$(AppPath)
+A:\mesh 08.10.01\OHM.CCT=$(AppPath)
+A:\mesh 08.10.01\SINGLE~1.CCT=$(AppPath)
+
+[Package|Mesh 2.1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\DESKTOP\mesh21.exe=No
+A:\mesh 08.10.01\mesh2.hlp=No
+A:\mesh 08.10.01\mesh.swf=No
+A:\mesh 08.10.01\MeshCGI.exe=No
+A:\mesh 08.10.01\Online.html=No
+A:\mesh 08.10.01\Null.xbm=No
+A:\mesh 08.10.01\MESH2C.CCT=No
+A:\mesh 08.10.01\OHM.CCT=No
+A:\mesh 08.10.01\SINGLE~1.CCT=No
+
+[Package|Mesh 2.1|Distribution]
+Type=single
+Size=
+Title=Mesh 2.1
+
+[Package|Mesh 2.1|IconGroups]
+Group0=Mesh 2.1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Mesh 2.1|Mesh 2.1]
+Icon1=mesh21.exe
+Title1=Mesh 2.1
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=mesh2.hlp
+Title2=User Guide
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|Mesh 2.1|Package]
+PackageFolder=c:\mesh
+ProjectFolder=A:\mesh 08.10.01
+ServerSideCab=
+File1=c:\mesh\setup.exe
+File2=c:\mesh\Setup.Lst
+File3=c:\mesh\mesh21.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
